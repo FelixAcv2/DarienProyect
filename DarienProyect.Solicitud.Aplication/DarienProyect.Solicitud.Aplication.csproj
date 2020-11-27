@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Acv2.SharedKernel.Application" Version="1.5.0" />
+    <PackageReference Include="Unity" Version="5.11.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DarienProyect.Solicitud.Data\DarienProyect.Solicitud.Data.csproj" />
+    <ProjectReference Include="..\DarienProyect.Solicitud.DTOs\DarienProyect.Solicitud.DTOs.csproj" />
+  </ItemGroup>
+
+</Project>
